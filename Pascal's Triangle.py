@@ -13,7 +13,8 @@ class Solution(object):
         final_list = []
         list_to_append = []
         while i <= numRows:
-            list_to_append = [i]*i
+            for a in range(i+1):
+                list_to_append = [*i]
             if len(list_to_append) > 2:
                 pass
             final_list.append(list_to_append)

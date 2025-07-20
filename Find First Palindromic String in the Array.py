@@ -15,8 +15,7 @@ class Solution(object):
             reversed_string = string[::-1]
             if reversed_string == string:
                 return reversed_string
-            else:
-                return ""
+        return ""
 
 
 word = Solution()
